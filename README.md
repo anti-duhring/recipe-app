@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Recipe app
+Simple and useful recipe app using [Spoonacular API](https://spoonacular.com/food-api). Still in building...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Funcionality
+![1](https://user-images.githubusercontent.com/99638905/160913054-92df7253-d2c2-485c-8159-ab56ba6078c9.png)
+
+![2](https://user-images.githubusercontent.com/99638905/160913072-43674dd1-5a0b-430d-98a2-7cabd2ea990c.png)
+
+## Architecture and Technology
+- HTML, CSS and JavaScript
+- React
+- [Spoonacular API](https://spoonacular.com/food-api)
 
 ## Available Scripts
 
