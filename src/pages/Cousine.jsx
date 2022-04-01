@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+
 
 const Cousine = () => {
     const [cousine, setCousine] = useState([])
@@ -16,15 +17,24 @@ const Cousine = () => {
         getCousine(params.type)
     },[params])
 
-    return ( 
-        <Grid>
+    return ( <AnimatePresence exitBeforeEnter>
+ <Grid>
             {cousine.map((item) => (
-                <Card key={item.id}>
+                <Card
+                animate={{opacity:1}}
+                initial={{opacity:0}}
+                exit={{opacity:0}}
+                transition={{duration:0.5}}
+                id={item.id}>
+                     <Link to={`/recipe/${item.id}`}>
                     <img src={item.image} alt={item.title} />
                     <h4>{item.title}</h4>
+                    </Link>
                 </Card>
             ))}
-        </Grid>
+            </Grid>
+        
+        </AnimatePresence>
      );
 }
 
@@ -32,8 +42,9 @@ const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-gap: 3rem;
+    margin-top: 3rem;
 `
-const Card = styled.div`
+const Card = styled(motion.div)`
     img{
         width: 100%;
         border-radius: 2rem;
