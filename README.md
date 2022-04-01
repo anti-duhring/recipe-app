@@ -2,9 +2,13 @@
 Simple and useful recipe app using [Spoonacular API](https://spoonacular.com/food-api). Still in building...
 
 ## Funcionality
-![1](https://user-images.githubusercontent.com/99638905/160913054-92df7253-d2c2-485c-8159-ab56ba6078c9.png)
+![1](https://user-images.githubusercontent.com/99638905/161300234-23630fb3-2720-4f58-b057-0cc2ebe09383.png)
 
-![2](https://user-images.githubusercontent.com/99638905/160913072-43674dd1-5a0b-430d-98a2-7cabd2ea990c.png)
+![2](https://user-images.githubusercontent.com/99638905/161300250-2052f335-0376-4168-be27-7a94a975eaa8.png)
+
+![3](https://user-images.githubusercontent.com/99638905/161300271-6f32633a-6679-41be-bd71-69fd20e07cab.png)
+
+![4](https://user-images.githubusercontent.com/99638905/161300287-193e37d0-cb2d-4b08-a14d-262a857ee771.png)
 
 ## Architecture and Technology
 - HTML, CSS and JavaScript
