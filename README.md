@@ -1,5 +1,7 @@
 # Recipe app
-Simple and useful recipe app using [Spoonacular API](https://spoonacular.com/food-api). Check the deploy here: https://tasty-good-app.netlify.app/
+Simple and useful recipe app using [Spoonacular API](https://spoonacular.com/food-api). 
+
+Check the deploy here: https://tasty-good-app.netlify.app/
 
 ## Funcionality
 ![1](https://user-images.githubusercontent.com/99638905/161300234-23630fb3-2720-4f58-b057-0cc2ebe09383.png)
